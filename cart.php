@@ -1,131 +1,223 @@
-
-
 <?php include ('header.php'); ?>
-<!-- Page Header Area Start -->
-<section class="page-header">
-   <div class="container">
-      <div class="row">
-         <div class="col-xl-12">
-            <h2>Cart</h2>
-            <ul>
-               <li><a href="">Home</a> &nbsp;/</li>
-               <li>Cart</li>
-            </ul>
-         </div>
-      </div>
-   </div>
-</section>
-<!-- Page Header Area End -->
-<!-- Menu Area Start -->
-<section class="menu-area pt-100 pb-100">
-   <div class="container">
-      <div class="row">
-         <div class="col-md-7">
-            <h4 class="menu-title">Cart</h4>
-            <div class="menu-right cart">
-               <table class="order-list">
-                  <tr>
-                     <td>Popadom</td>
-                     <td><input type="number"></td>
-                     <td>$34</td>
-                     <td><i class="fas fa-times"></i></td>
-                  </tr>
-                  <tr>
-                     <td>Shamee Kebab</td>
-                     <td><input type="number"></td>
-                     <td>$35</td>
-                     <td><i class="fas fa-times"></i></td>
-                  </tr>
-                  <tr>
-                     <td>Onion Bhajee </td>
-                     <td><input type="number"></td>
-                     <td>$12.99</td>
-                     <td><i class="fas fa-times"></i></td>
-                  </tr>
-                  <tr>
-                     <td>Meat/Vegetable Samosa </td>
-                     <td><input type="number"></td>
-                     <td>$1.99</td>
-                     <td><i class="fas fa-times"></i></td>
-                  </tr>
-                  <tr class="cart-total">
-                     <td>&nbsp;</td>
-                     <td>Total</td>
-                     <td>$150.99</td>
-                     <td>&nbsp;</td>
-                  </tr>
-               </table>
-            </div>
-         </div>
-         <div class="col-md-5">
-            <div class="order">
-               <h4 class="menu-title">Order Details</h4>
-               <div id="order_review" class="woocommerce-checkout-review-order">
-                  <table class="table">
-                     <thead>
-                        <tr>
-                           <th>Product</th>
-                           <th>Subtotal</th>
-                        </tr>
-                     </thead>
-                     <tbody>
-                        <tr >
-                           <td>Beanie with Logo&nbsp;<strong>×&nbsp;4</strong>	</td>
-                           <td>
-                              <span><bdi>72.00<span>৳&nbsp;</span></bdi></span>	</td>
-                        </tr>
-                        <tr>
-                           <td>Album&nbsp;<strong?>×&nbsp;1</strong></td>
-                           <td>
-                              <span><bdi>15.00<span>৳&nbsp;</span></bdi></span>
-							</td>
-                        </tr>
-                     </tbody>
-                     <tfoot>
-                        <tr>
-                           <th>Subtotal</th>
-                           <td><span><bdi>87.00<span>৳&nbsp;</span></bdi></span></td>
-                        </tr>
-                        <tr class="order-total">
-                           <th>Total</th>
-                           <td><strong><span><bdi>87.00<span>৳&nbsp;</span></bdi></span></strong> </td>
-                        </tr>
-                     </tfoot>
-                  </table>
-                  <div>
-                     <ul>
-                        <li>
-                           <input id="payment_method_cheque" type="radio" class="input-radio" name="payment_method" value="cheque" data-order_button_text="">
-                           <label for="payment_method_cheque">
-                           Check payments 	</label>
-                        </li>
-                        <li>
-                           <input id="payment_method_cod" type="radio" class="input-radio" name="payment_method" value="cod" checked="checked" data-order_button_text="">
-                           <label for="payment_method_cod">
-                           Cash on delivery 	</label>
-                           <div class="payment_box payment_method_cod" style="display:none;">
-                              <p>Pay with cash upon delivery.</p>
-                           </div>
-                        </li>
-                        <li>
-                           <input id="payment_method_bkash" type="radio" class="input-radio" name="payment_method" value="bkash" data-order_button_text="">
-                           <label for="payment_method_bkash">
-                           bKash Payment 	</label>
-                           <div class="payment_box payment_method_bkash" style="display:none;">
-                              <p>Pay via bKash</p>
-                           </div>
-                        </li>
-                     </ul>
-                     <div class="form-row place-order">
-                        <button type="submit" class="cart-btn" value="Place order">Place order</button>	
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-</section>
-<!-- Menu Area End -->
-<?php include('footer.php');?>
 
+<?php include('parts/breadcumb.php');?>
+
+	<section class="shopping-cart ptb">
+		<div class="container">
+			<div class="cart-item-table commun-table">
+				<div class="table-responsive">
+				    <table class="table border mb-0">
+				        <thead>
+				            <tr>
+				                <th class="align-left">Product</th>
+				                <th class="align-left">Product Name</th>
+				                <th>Price</th>
+				                <th>Quantity</th>
+				                <th>Sub Total</th>
+				                <th>Action</th>
+				            </tr>
+				        </thead>
+				        <tbody>
+				            <tr>
+				                <td class="align-left">
+				                    <a href="shop-detail.html">
+					                    <div class="product-image">
+					                        <img alt="Eshoper" src="images/2-1.png">
+					                    </div>
+				                     </a>
+				                </td>
+				                <td class="align-left">
+				                    <div class="product-title"> 
+				                        <a href="shop-detail.html">margherita pizza</a> 
+				                    </div>
+				                </td>
+				                <td>
+				                    <ul>
+				                        <li>
+				                          	<div class="base-price price-box"> 
+				                            	<span class="price">$15.50</span> 
+				                          	</div>
+				                        </li>
+				                    </ul>
+				                </td>
+				                <td>
+				                    <div class="input-box">
+				                       	<select data-id="100" class="quantity_cart" name="quantity_cart">
+				                          	<option selected="" value="1">1</option>
+				                          	<option value="2">2</option>
+				                          	<option value="3">3</option>
+				                          	<option value="4">4</option>
+				                        </select>
+				                    </div>
+				                </td>
+				                <td>
+				                    <div class="total-price price-box"> 
+				                        <span class="price">$15.50</span> 
+				                    </div>
+				                </td>
+				                <td>
+				                   	<a href="javascript:void(0)" class="btn small btn-color">
+					                    <i title="Remove Item From Cart" data-id="100" class="fa fa-trash cart-remove-item"></i>
+					                </a>
+				                </td>
+				            </tr>
+				            <tr>
+				                <td class="align-left">
+				                    <a href="shop-detail.html">
+				                        <div class="product-image">
+				                          	<img alt="Eshoper" src="images/4.png">
+				                        </div>
+				                    </a>
+				                </td>
+				                <td class="align-left">
+				                    <div class="product-title"> 
+				                        <a href="shop-detail.html">GREEK PIZZA</a> 
+				                    </div>
+				                </td>
+				                <td>
+				                    <ul>
+				                        <li>
+				                          	<div class="base-price price-box"> 
+				                            	<span class="price">$20.00</span> 
+				                          	</div>
+				                        </li>
+				                    </ul>
+				                </td>
+				                <td>
+				                	<div class="input-box">
+				                    	<select data-id="100" class="quantity_cart" name="quantity_cart">
+				                          	<option selected="" value="1">1</option>
+				                          	<option value="2">2</option>
+				                          	<option value="3">3</option>
+				                          	<option value="4">4</option>
+				                        </select>
+				                    </div>
+				                </td>
+				                <td>
+				                    <div class="total-price price-box"> 
+				                        <span class="price">$20.00</span> 
+				                    </div>
+				                </td>
+				                <td>
+				                   	<a href="javascript:void(0)" class="btn small btn-color">
+					                    <i title="Remove Item From Cart" data-id="100" class="fa fa-trash cart-remove-item"></i>
+					                </a>
+				                </td>
+				            </tr>
+				        </tbody>
+				    </table>
+				</div>
+			</div>
+			<div class="mb-30">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="mt-30 text-center-r"> 
+						    <a href="shop-categories.html" class="btn btn-color">
+						        <i class="fa fa-angle-left"></i><span>Continue Shopping</span>
+						    </a> 
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="mt-30 right-side float-none-sm text-center-r"> 
+						    <a href="javascript:void(0)" class="btn btn-color">Update Cart</a> 
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="mtb-30">
+				<div class="row">
+					<div class="col-md-6 mb-sm-20">
+					    <div class="estimate">
+					        <div class="heading-part mb-20">
+					            <h3 class="sub-heading text-center-r">Estimate shipping and tax</h3>
+					        </div>
+					        <form class="full">
+					             <div class="row">
+					                <div class="col-md-12">
+					                    <div class="input-box mb-20">
+					                      	<select id="country_id" class="full">
+					                        	<option selected="" value="">Select Country</option>
+					                        	<option value="1">India</option>
+					                        	<option value="2">China</option>
+					                        	<option value="3">Pakistan</option>
+					                      	</select>
+					                    </div>
+					                </div>
+					                <div class="col-md-6">
+					                    <div class="input-box mb-20">
+					                      	<select id="state_id" class="full">
+					                        	<option selected="" value="1">Select State/Province</option>
+					                        	<option value="2">---</option>
+					                      	</select>
+					                    </div>
+					                </div>
+					                <div class="col-md-6">
+					                    <div class="input-box mb-20">
+					                      	<select id="city_id" class="full">
+					                        	<option selected="" value="1">Select City</option>
+					                        	<option value="2">---</option>
+					                      	</select>
+					                    </div>
+					                </div>
+					            </div>
+					        </form>
+					    </div>
+					</div>
+					<div class="col-md-6">
+					    <div class="cart-total-table commun-table">
+					        <div class="table-responsive">
+					            <table class="table border">
+					                <thead>
+					                    <tr>
+					                      	<th colspan="2" class="text-center-r">Cart Total</th>
+					                    </tr>
+					                </thead>
+					                <tbody>
+					                    <tr>
+					                      	<td>Item(s) Subtotal</td>
+					                      	<td>
+					                        	<div class="price-box"> 
+					                          		<span class="price">$71.00</span> 
+					                        	</div>
+					                      	</td>
+					                    </tr>
+					                    <tr>
+					                      	<td>Shipping</td>
+					                      	<td>
+					                        	<div class="price-box"> 
+					                          		<span class="price">$0.00</span> 
+					                        	</div>
+					                      	</td>
+					                    </tr>
+					                    <tr>
+					                      	<td><b>Amount Payable</b></td>
+					                      	<td>
+					                        	<div class="price-box"> 
+					                          		<span class="price"><b>$71.00</b></span> 
+					                        	</div>
+					                      	</td>
+					                    </tr>
+					                </tbody>
+					            </table>
+					        </div>
+					    </div>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="mt-30">
+				<div class="row">
+					<div class="col-12">
+					    <div class="right-side float-none-xs text-center-r float-none-sm"> 
+					        <a href="checkout.html" class="btn btn-color">Proceed to checkout
+					            <span><i class="fa fa-angle-right"></i></span>
+					        </a> 
+					    </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<?php include ('footer.php'); ?>

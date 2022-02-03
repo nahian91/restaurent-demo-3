@@ -25,27 +25,27 @@
                <div class="menu-single-list">
                   <h4 class="item-title">Popadom <span>(specially blended spice to compliment the duck flavour)</span></h4>
                   <p class="item-price">$10.00</p>
-                  <span class="item-add"><i class="fas fa-plus"></i></span>
+                  <span class="item-add"><i class="fa fa-plus"></i></span>
                </div>
                <div class="menu-single-list">
                   <h4 class="item-title">Chutney Cup  <span>(specially blended spice to compliment the duck flavour)</span></h4>
                   <p class="item-price">$23.89</p>
-                  <span class="item-add"><i class="fas fa-plus"></i></span>
+                  <span class="item-add"><i class="fa fa-plus"></i></span>
                </div>
                <div class="menu-single-list">
                   <h4 class="item-title">Shamee Kebab  <span>(specially blended spice to compliment the duck flavour)</span></h4>
                   <p class="item-price">$20.99</p>
-                  <span class="item-add"><i class="fas fa-plus"></i></span>
+                  <span class="item-add"><i class="fa fa-plus"></i></span>
                </div>
                <div class="menu-single-list">
                   <h4 class="item-title">Onion Bhajee  <span>(specially blended spice to compliment the duck flavour)</span></h4>
                   <p class="item-price">$9.99</p>
-                  <span class="item-add"><i class="fas fa-plus"></i></span>
+                  <span class="item-add"><i class="fa fa-plus"></i></span>
                </div>
                <div class="menu-single-list">
                   <h4 class="item-title">Meat/Vegetable Samosa <span>(specially blended spice to compliment the duck flavour)</span></h4>
                   <p class="item-price">$2.90</p>
-                  <span class="item-add"><i class="fas fa-plus"></i></span>
+                  <span class="item-add"><i class="fa fa-plus"></i></span>
                </div>
             </div>
             <div class="menu-list" id="tandoori">
@@ -53,27 +53,27 @@
                <div class="menu-single-list">
                   <h4 class="item-title">Popadom <span>(specially blended spice to compliment the duck flavour)</span></h4>
                   <p class="item-price">$10.00</p>
-                  <span class="item-add"><i class="fas fa-plus"></i></span>
+                  <span class="item-add"><i class="fa fa-plus"></i></span>
                </div>
                <div class="menu-single-list">
                   <h4 class="item-title">Chutney Cup <span>(specially blended spice to compliment the duck flavour)</span></h4>
                   <p class="item-price">$23.89</p>
-                  <span class="item-add"><i class="fas fa-plus"></i></span>
+                  <span class="item-add"><i class="fa fa-plus"></i></span>
                </div>
                <div class="menu-single-list">
                   <h4 class="item-title">Shamee Kebab <span>(specially blended spice to compliment the duck flavour)</span></h4>
                   <p class="item-price">$20.99</p>
-                  <span class="item-add"><i class="fas fa-plus"></i></span>
+                  <span class="item-add"><i class="fa fa-plus"></i></span>
                </div>
                <div class="menu-single-list">
                   <h4 class="item-title">Onion Bhajee <span>(specially blended spice to compliment the duck flavour)</span></h4>
                   <p class="item-price">$9.99</p>
-                  <span class="item-add"><i class="fas fa-plus"></i></span>
+                  <span class="item-add"><i class="fa fa-plus"></i></span>
                </div>
                <div class="menu-single-list">
                   <h4 class="item-title">Meat/Vegetable Samosa <span>(specially blended spice to compliment the duck flavour)</span></h4>
                   <p class="item-price">$2.90</p>
-                  <span class="item-add"><i class="fas fa-plus"></i></span>
+                  <span class="item-add"><i class="fa fa-plus"></i></span>
                </div>
             </div>
             <div class="menu-list" id="sizzling">
@@ -81,27 +81,27 @@
                <div class="menu-single-list">
                   <h4 class="item-title">Popadom <span>(specially blended spice to compliment the duck flavour)</span></h4>
                   <p class="item-price">$10.00</p>
-                  <span class="item-add"><i class="fas fa-plus"></i></span>
+                  <span class="item-add"><i class="fa fa-plus"></i></span>
                </div>
                <div class="menu-single-list">
                   <h4 class="item-title">Chutney Cup <span>(specially blended spice to compliment the duck flavour)</span></h4>
                   <p class="item-price">$23.89</p>
-                  <span class="item-add"><i class="fas fa-plus"></i></span>
+                  <span class="item-add"><i class="fa fa-plus"></i></span>
                </div>
                <div class="menu-single-list">
                   <h4 class="item-title">Shamee Kebab <span>(specially blended spice to compliment the duck flavour)</span></h4>
                   <p class="item-price">$20.99</p>
-                  <span class="item-add"><i class="fas fa-plus"></i></span>
+                  <span class="item-add"><i class="fa fa-plus"></i></span>
                </div>
                <div class="menu-single-list">
                   <h4 class="item-title">Onion Bhajee <span>(specially blended spice to compliment the duck flavour)</span></h4>
                   <p class="item-price">$9.99</p>
-                  <span class="item-add"><i class="fas fa-plus"></i></span>
+                  <span class="item-add"><i class="fa fa-plus"></i></span>
                </div>
                <div class="menu-single-list">
                   <h4 class="item-title">Meat/Vegetable Samosa <span>(specially blended spice to compliment the duck flavour)</span></h4>
                   <p class="item-price">$2.90</p>
-                  <span class="item-add"><i class="fas fa-plus"></i></span>
+                  <span class="item-add"><i class="fa fa-plus"></i></span>
                </div>
             </div>
          </div>
@@ -113,25 +113,25 @@
                      <td>Popadom</td>
                      <td><input type="number"></td>
                      <td>$34</td>
-                     <td><i class="fas fa-times"></i></td>
+                     <td><i class="fa fa-times"></i></td>
                   </tr>
                   <tr>
                      <td>Shamee Kebab</td>
                      <td><input type="number"></td>
                      <td>$35</td>
-                     <td><i class="fas fa-times"></i></td>
+                     <td><i class="fa fa-times"></i></td>
                   </tr>
                   <tr>
                      <td>Onion Bhajee </td>
                      <td><input type="number"></td>
                      <td>$12.99</td>
-                     <td><i class="fas fa-times"></i></td>
+                     <td><i class="fa fa-times"></i></td>
                   </tr>
                   <tr>
                      <td>Meat/Vegetable Samosa </td>
                      <td><input type="number"></td>
                      <td>$1.99</td>
-                     <td><i class="fas fa-times"></i></td>
+                     <td><i class="fa fa-times"></i></td>
                   </tr>
                   <tr class="cart-total">
                      <td>&nbsp;</td>

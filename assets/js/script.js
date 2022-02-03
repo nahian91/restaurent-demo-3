@@ -2,6 +2,15 @@ var w = 0;
 $(function() {
     "use strict";
 
+        /* Magnific Image Popup
+		============================*/
+		$('.single-gallery').magnificPopup({
+			type: 'image',
+			gallery: {
+				enabled: true
+			}
+		});
+        
         $(window).scroll(function() {
             if ($(this).scrollTop() > 90){  
                 $('.top-scrolling').addClass("sticky");

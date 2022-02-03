@@ -1,19 +1,7 @@
 <?php include ('header.php'); ?>
-<!-- Page Header Area Start -->
-<section class="page-header">
-   <div class="container">
-      <div class="row">
-         <div class="col-xl-12">
-            <h2>Login</h2>
-            <ul>
-               <li><a href="">Home</a> &nbsp;/</li>
-               <li>Login</li>
-            </ul>
-         </div>
-      </div>
-   </div>
-</section>
-<!-- Page Header Area End -->
+
+<?php include('parts/breadcumb.php');?>
+
 <div class="container pt-100 pb-100">
    <div class="row">
       <div class="col-md-6 mx-auto">
